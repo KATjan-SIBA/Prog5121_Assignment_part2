@@ -44,7 +44,6 @@ public class PROG5121_Assignment_part2 {
     }
 
     /**
-     * UPDATED: Generates the hash to match requirements exactly.
      * Example Expected Output Format: 00:0:HITHANKS
      * @param messageID
      * @param message
@@ -261,9 +260,9 @@ public class PROG5121_Assignment_part2 {
             String input = JOptionPane.showInputDialog("""
                                                        Welcome to QuickChat
                                                        
-                                                       1. Option 1) Send Messages
-                                                       2. Option 2) Show recently sent messages
-                                                       3. Option 3) Quit""");
+                                                       1.Send Messages
+                                                       2.Show recently sent messages
+                                                       3.Quit""");
             
             if (input == null) {
                 choice = 3; 
